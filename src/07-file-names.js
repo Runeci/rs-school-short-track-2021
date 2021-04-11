@@ -18,3 +18,15 @@ function renameFiles(/* names */) {
 }
 
 module.exports = renameFiles;
+
+// const state = {};
+// return names.map((name) => {
+//   const count = state[name];
+//   if (state[name]) {
+//     state[name] += 1;
+//   } else {
+//     state[name] = 0;
+//   }
+//   return count > 1
+//     ? `${name}(${count - 1})` : name;
+// });
